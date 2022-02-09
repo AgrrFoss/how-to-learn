@@ -61,7 +61,7 @@
 .header__main-illustration {
   width: 765px;
   height: 608px;
-  object-fit: conver;
+  object-fit: cover;
   position: absolute;
   bottom: 0px;
   right: 0px;
@@ -295,6 +295,7 @@
 }
 .footer__column-links {
   margin: 20px 0 16px;
+  padding: 0;
   display: flex;
   flex-direction: column;
   list-style: none;
